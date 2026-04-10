@@ -52,6 +52,11 @@ app.get('/', (req, res) => {
   res.send('Aura Tasks API is running...');
 });
 
+// Health Check Endpoint
+app.get('/health', (req, res) => {
+  res.status(200).send('ok');
+});
+
 // Start Server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
