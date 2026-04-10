@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 
 //hello
+
 // Middleware
 const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : [];
 app.use(cors({
