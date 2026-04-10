@@ -54,7 +54,7 @@ const Register = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg shadow-primary/25">
               <CheckSquare className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground">Taskflow</span>
+            <span className="text-xl font-bold text-foreground">Aura Tasks</span>
           </Link>
           <h2 className="text-4xl font-bold text-foreground tracking-tight mb-4 leading-tight">
             Start your journey.<br />
@@ -72,7 +72,7 @@ const Register = () => {
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center">
                 <CheckSquare className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="text-lg font-bold text-foreground">Taskflow</span>
+              <span className="text-lg font-bold text-foreground">Aura Tasks</span>
             </Link>
           </div>
 
